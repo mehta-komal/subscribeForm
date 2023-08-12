@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Gudea', sans-serif;
+  font-family: 'Instrument Serif', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Sacramento', cursive;
+}
+
+.main-div{
+background-color: rgb(156, 226, 203);
+display: flex;
+align-items: center;
+flex-direction: column;
+height: 60vh;
+margin: 60px;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.subscribe_form{
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ 
+}
+.input-field {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 30px;
+  
+}
+
+input{
+padding: 10px;
+font-size: 16px;
+border-radius: 10px;
+border: none;
+}
+
+button{
+  padding: 10px;
+  width: 300px;
+  height: 50;
+  border-radius: 10px;
+  background-color: rgb(251, 169, 182);
+  color: white;
+  font-size: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:180px
+}
