@@ -57,3 +57,44 @@ button{
   justify-content: center;
   margin-left:180px
 }
+
+.first{
+  margin: 10px;
+  background-color: rgb(15, 74, 118);
+  height: 80px;
+}
+
+.second{
+  margin: 10px;
+  background-color: rgb(8, 8, 110);
+  height: 80px;
+}
+
+.third{
+  margin: 10px;
+  background-color: rgb(27, 212, 200);
+  height: 80px;
+}
+.fourth{
+  margin: 10px;
+  background-color: rgb(52, 182, 32);
+  height: 80px;
+}
+.fifth{
+  margin: 10px;
+  background-color: rgb(212, 27, 193);
+  height: 80px;
+}
+
+.color-bars{
+  border: 2px solid black;
+ 
+  padding: 10px 250px;
+  border-radius: 10px;
+}
+
+.color-bar{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
